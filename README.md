@@ -13,4 +13,4 @@ Selenium webdriver had to be used as the website contained dynamically generated
 1. save_pdf.py -> python script used to save the pdf version of client notes for backup
 1. ProcessClient.sh -> shell pipeline used to extract the JSON string containing the client notes
 1. save_document.py -> python script used to save all attachment (pdf, docx, jpeg etc) associated with client. 
-1. ZIPfiles.py -> python script used to concatinate client-ID in front of file name and add them to folder. If folder exceeds 400 mb, it will create new folder and add additional files there.
+1. ZIPfiles.py -> python script used to concatinate client-ID in front of file name and add them to folder. If folder exceeds 400 mb, it will create new folder and add additional files in the new folder.
